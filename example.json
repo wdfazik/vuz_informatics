@@ -1,0 +1,45 @@
+{
+  "blocks": [
+    {"x":600,"y":200,"text":"Начало","width":120,"height":30,"type":"Начало / конец","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":270,"text":"Сформировать массив l\n(20 чисел от 0 до 5)","width":170,"height":50,"type":"Блок","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":350,"text":"max = 0","width":120,"height":40,"type":"Блок","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":420,"text":"i от 0 до 5","width":120,"height":40,"type":"Цикл for","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":500,"text":"count = 0","width":120,"height":40,"type":"Блок","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":570,"text":"j из списка l","width":120,"height":40,"type":"Цикл for","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":650,"text":"i == j?","width":120,"height":40,"type":"Условие","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":730,"text":"count = count + 1","width":150,"height":40,"type":"Блок","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":810,"text":"max < count?","width":130,"height":40,"type":"Условие","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":890,"text":"max = count\nr = i","width":140,"height":50,"type":"Блок","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":980,"text":"Вывести массив l\nВывести r","width":160,"height":50,"type":"Блок","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1},
+
+    {"x":600,"y":1060,"text":"Конец","width":120,"height":30,"type":"Начало / конец","isMenuBlock":false,"fontSize":14,"textHeight":14,"isBold":false,"isItalic":false,"textAlign":"center","labelsPosition":1}
+  ],
+
+  "arrows": [
+    {"startIndex":0,"endIndex":1,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":215},{"x":600,"y":240},{"x":600,"y":250}],"counts":[1,1,1]},
+    {"startIndex":1,"endIndex":2,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":295},{"x":600,"y":320},{"x":600,"y":330}],"counts":[1,1,1]},
+    {"startIndex":2,"endIndex":3,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":370},{"x":600,"y":390},{"x":600,"y":400}],"counts":[1,1,1]},
+    {"startIndex":3,"endIndex":4,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":440},{"x":600,"y":460},{"x":600,"y":480}],"counts":[1,1,1]},
+    {"startIndex":4,"endIndex":5,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":520},{"x":600,"y":540},{"x":600,"y":550}],"counts":[1,1,1]},
+    {"startIndex":5,"endIndex":6,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":590},{"x":600,"y":620},{"x":600,"y":630}],"counts":[1,1,1]},
+    {"startIndex":6,"endIndex":7,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":670},{"x":600,"y":700},{"x":600,"y":710}],"counts":[1,1,1]},
+    {"startIndex":7,"endIndex":8,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":750},{"x":600,"y":780},{"x":600,"y":790}],"counts":[1,1,1]},
+    {"startIndex":8,"endIndex":9,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":830},{"x":600,"y":860},{"x":600,"y":870}],"counts":[1,1,1]},
+    {"startIndex":9,"endIndex":5,"startConnectorIndex":3,"endConnectorIndex":3,"nodes":[{"x":550,"y":915},{"x":520,"y":915},{"x":520,"y":590},{"x":550,"y":590}],"counts":[1,1,1,1]},
+    {"startIndex":3,"endIndex":10,"startConnectorIndex":1,"endConnectorIndex":0,"nodes":[{"x":650,"y":420},{"x":700,"y":420},{"x":700,"y":950},{"x":600,"y":950}],"counts":[1,1,1,1]},
+    {"startIndex":10,"endIndex":11,"startConnectorIndex":2,"endConnectorIndex":0,"nodes":[{"x":600,"y":1005},{"x":600,"y":1030},{"x":600,"y":1045}],"counts":[1,1,1]}
+  ],
+
+  "x0": 0,
+  "y0": 0
+}
